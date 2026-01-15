@@ -326,7 +326,7 @@ export default function Home() {
               ref={receiptInputRef}
               onChange={handleReceiptUpload}
               accept="image/*,.pdf"
-              capture="environment"
+              
               style={{ display: 'none' }}
             />
             
